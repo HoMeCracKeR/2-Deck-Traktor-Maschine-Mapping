@@ -85,7 +85,7 @@
         <channel>7</channel>
         <off>0</off>
         <on>127</on>
-        <behavior>gate</behavior>
+        <behavior>trigger</behavior>
         <reaction>ondown</reaction>
       </button>
       <button id="F">
@@ -98,13 +98,12 @@
         <reaction>ondown</reaction>
       </button>
       <button id="F1">
-        <name> </name>
-        <disabled/>
+        <name> Snap</name>
         <controller>64</controller>
         <channel>7</channel>
         <off>0</off>
         <on>127</on>
-        <behavior>gate</behavior>
+        <behavior>trigger</behavior>
         <reaction>ondown</reaction>
       </button>
       <button id="F2">
@@ -211,7 +210,7 @@
         <channel>7</channel>
         <off>0</off>
         <on>127</on>
-        <behavior>gate</behavior>
+        <behavior>trigger</behavior>
         <reaction>ondown</reaction>
       </button>
       <button id="Prev.">
@@ -230,7 +229,7 @@
         <channel>7</channel>
         <off>0</off>
         <on>127</on>
-        <behavior>gate</behavior>
+        <behavior>trigger</behavior>
         <reaction>ondown</reaction>
       </button>
       <button id="Repeat">
@@ -283,13 +282,12 @@
         <reaction>ondown</reaction>
       </button>
       <button id="Step">
-        <name> </name>
-        <disabled/>
+        <name>Quantize </name>
         <controller>61</controller>
         <channel>7</channel>
         <off>0</off>
         <on>127</on>
-        <behavior>gate</behavior>
+        <behavior>trigger</behavior>
         <reaction>ondown</reaction>
       </button>
       <knob id="Swing">
@@ -311,7 +309,7 @@
         <max>127</max>
         <default>0</default>
         <range>360</range>
-        <steps>20</steps>
+        <steps>100</steps>
         <bipolar>off</bipolar>
       </knob>
       <knob id="Volume">
