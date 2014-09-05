@@ -6,7 +6,7 @@
     <velocitycurve>3</velocitycurve>
     <controls>
       <button id="A">
-        <name>Fx 1 A</name>
+        <name>FX: BG A</name>
         <controller>40</controller>
         <channel>7</channel>
         <off>0</off>
@@ -15,7 +15,7 @@
         <reaction>ondown</reaction>
       </button>
       <button id="B">
-        <name>Fx 2 A</name>
+        <name>FX: Tex A</name>
         <controller>41</controller>
         <channel>7</channel>
         <off>0</off>
@@ -33,7 +33,7 @@
         <reaction>ondown</reaction>
       </button>
       <button id="C">
-        <name>Fx 1 B</name>
+        <name>FX: Tex B</name>
         <controller>42</controller>
         <channel>7</channel>
         <off>0</off>
@@ -52,7 +52,7 @@
         <reaction>ondown</reaction>
       </button>
       <button id="D">
-        <name>Fx 2 B</name>
+        <name>FX: BG B</name>
         <controller>43</controller>
         <channel>7</channel>
         <off>0</off>
@@ -291,7 +291,7 @@
         <reaction>ondown</reaction>
       </button>
       <knob id="Swing">
-        <name>Vol B</name>
+        <name>Browse List</name>
         <controller mode="offset">52</controller>
         <channel>7</channel>
         <min>0</min>
@@ -313,7 +313,7 @@
         <bipolar>off</bipolar>
       </knob>
       <knob id="Volume">
-        <name>Vol A</name>
+        <name>Browse Tree</name>
         <controller mode="offset">50</controller>
         <channel>7</channel>
         <min>0</min>
@@ -325,7 +325,7 @@
       </knob>
     </controls>
     <pages>
-      <current_index>1</current_index>
+      <current_index>0</current_index>
       <page name="Equalizer">
         <button id="Button1">
           <name>Hi</name>
@@ -346,7 +346,7 @@
           <reaction>ondown</reaction>
         </button>
         <button id="Button3">
-          <name>Low</name>
+          <name>Lo</name>
           <controller>112</controller>
           <channel>7</channel>
           <off>0</off>
@@ -355,7 +355,7 @@
           <reaction>ondown</reaction>
         </button>
         <button id="Button4">
-          <name>A</name>
+          <name>Vol</name>
           <controller>113</controller>
           <channel>7</channel>
           <off>0</off>
@@ -364,7 +364,7 @@
           <reaction>ondown</reaction>
         </button>
         <button id="Button5">
-          <name>B</name>
+          <name>Hi</name>
           <controller>114</controller>
           <channel>7</channel>
           <off>0</off>
@@ -373,7 +373,7 @@
           <reaction>ondown</reaction>
         </button>
         <button id="Button6">
-          <name>Hi</name>
+          <name>Mid</name>
           <controller>115</controller>
           <channel>7</channel>
           <off>0</off>
@@ -382,7 +382,7 @@
           <reaction>ondown</reaction>
         </button>
         <button id="Button7">
-          <name>Mid</name>
+          <name>Lo</name>
           <controller>116</controller>
           <channel>7</channel>
           <off>0</off>
@@ -391,7 +391,7 @@
           <reaction>ondown</reaction>
         </button>
         <button id="Button8">
-          <name>Low</name>
+          <name>Vol</name>
           <mcu-button>32</mcu-button>
           <behavior>gate</behavior>
           <reaction>ondown</reaction>
@@ -438,7 +438,7 @@
           <default>0</default>
           <range>360</range>
           <steps>20</steps>
-          <bipolar>on</bipolar>
+          <bipolar>off</bipolar>
         </knob>
         <knob id="Knob5">
           <name> </name>
@@ -482,12 +482,12 @@
           <default>0</default>
           <range>360</range>
           <steps>20</steps>
-          <bipolar>on</bipolar>
+          <bipolar>off</bipolar>
         </knob>
       </page>
       <page name="Effects">
         <button id="Button1">
-          <name>Beatm</name>
+          <name>Fltr</name>
           <controller>90</controller>
           <channel>7</channel>
           <off>0</off>
@@ -496,7 +496,7 @@
           <reaction>ondown</reaction>
         </button>
         <button id="Button2">
-          <name>Wormh</name>
+          <name>Tex</name>
           <controller>91</controller>
           <channel>7</channel>
           <off>0</off>
@@ -505,7 +505,7 @@
           <reaction>ondown</reaction>
         </button>
         <button id="Button3">
-          <name>Delay</name>
+          <name>Bg</name>
           <controller>92</controller>
           <channel>7</channel>
           <off>0</off>
@@ -514,7 +514,7 @@
           <reaction>ondown</reaction>
         </button>
         <button id="Button4">
-          <name>Fx 1</name>
+          <name>Fltr</name>
           <controller>93</controller>
           <channel>7</channel>
           <off>0</off>
@@ -523,7 +523,7 @@
           <reaction>ondown</reaction>
         </button>
         <button id="Button5">
-          <name>Fx 2</name>
+          <name> </name>
           <controller>94</controller>
           <channel>7</channel>
           <off>0</off>
@@ -532,7 +532,7 @@
           <reaction>ondown</reaction>
         </button>
         <button id="Button6">
-          <name>Beatm</name>
+          <name> </name>
           <controller>95</controller>
           <channel>7</channel>
           <off>0</off>
@@ -541,7 +541,7 @@
           <reaction>ondown</reaction>
         </button>
         <button id="Button7">
-          <name>Filter</name>
+          <name> </name>
           <controller>96</controller>
           <channel>7</channel>
           <off>0</off>
@@ -550,7 +550,7 @@
           <reaction>ondown</reaction>
         </button>
         <button id="Button8">
-          <name>Reverb</name>
+          <name> </name>
           <mcu-button>31</mcu-button>
           <behavior>gate</behavior>
           <reaction>ondown</reaction>
@@ -564,7 +564,7 @@
           <default>0</default>
           <range>360</range>
           <steps>20</steps>
-          <bipolar>off</bipolar>
+          <bipolar>on</bipolar>
         </knob>
         <knob id="Knob2">
           <name> </name>
@@ -597,7 +597,7 @@
           <default>0</default>
           <range>360</range>
           <steps>20</steps>
-          <bipolar>off</bipolar>
+          <bipolar>on</bipolar>
         </knob>
         <knob id="Knob5">
           <name> </name>
