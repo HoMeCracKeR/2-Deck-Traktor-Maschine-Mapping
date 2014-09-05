@@ -325,7 +325,7 @@
       </knob>
     </controls>
     <pages>
-      <current_index>0</current_index>
+      <current_index>1</current_index>
       <page name="Equalizer">
         <button id="Button1">
           <name>Hi</name>
