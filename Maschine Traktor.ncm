@@ -6,7 +6,7 @@
     <velocitycurve>3</velocitycurve>
     <controls>
       <button id="A">
-        <name>fx: Simple</name>
+        <name>A: Fx 1</name>
         <controller>40</controller>
         <channel>7</channel>
         <off>0</off>
@@ -15,7 +15,7 @@
         <reaction>ondown</reaction>
       </button>
       <button id="B">
-        <name>fx: Beat</name>
+        <name>A: Fx 2</name>
         <controller>41</controller>
         <channel>7</channel>
         <off>0</off>
@@ -33,7 +33,7 @@
         <reaction>ondown</reaction>
       </button>
       <button id="C">
-        <name>fx: Beat</name>
+        <name>B: Fx 1</name>
         <controller>42</controller>
         <channel>7</channel>
         <off>0</off>
@@ -52,7 +52,7 @@
         <reaction>ondown</reaction>
       </button>
       <button id="D">
-        <name>fx: Simple</name>
+        <name>B: Fx 2</name>
         <controller>43</controller>
         <channel>7</channel>
         <off>0</off>
@@ -71,7 +71,7 @@
         <reaction>ondown</reaction>
       </button>
       <button id="E">
-        <name>Cue A</name>
+        <name>A: Play</name>
         <controller>44</controller>
         <channel>7</channel>
         <off>0</off>
@@ -85,11 +85,11 @@
         <channel>7</channel>
         <off>0</off>
         <on>127</on>
-        <behavior>trigger</behavior>
+        <behavior onIfDown="on">trigger</behavior>
         <reaction>ondown</reaction>
       </button>
       <button id="F">
-        <name>Play A</name>
+        <name>A: Cue</name>
         <controller>45</controller>
         <channel>7</channel>
         <off>0</off>
@@ -98,7 +98,8 @@
         <reaction>ondown</reaction>
       </button>
       <button id="F1">
-        <name> Snap</name>
+        <name> </name>
+        <disabled/>
         <controller>64</controller>
         <channel>7</channel>
         <off>0</off>
@@ -117,7 +118,7 @@
         <reaction>ondown</reaction>
       </button>
       <button id="G">
-        <name>Play B</name>
+        <name>B: Play</name>
         <controller>46</controller>
         <channel>7</channel>
         <off>0</off>
@@ -126,17 +127,16 @@
         <reaction>ondown</reaction>
       </button>
       <button id="Grid">
-        <name> </name>
-        <disabled/>
+        <name>Loop Size</name>
         <controller>33</controller>
         <channel>7</channel>
         <off>0</off>
         <on>127</on>
-        <behavior>gate</behavior>
+        <behavior onIfDown="on">trigger</behavior>
         <reaction>ondown</reaction>
       </button>
       <button id="H">
-        <name>Cue B</name>
+        <name>B: Cue</name>
         <controller>47</controller>
         <channel>7</channel>
         <off>0</off>
@@ -243,13 +243,12 @@
         <reaction>ondown</reaction>
       </button>
       <button id="Sample">
-        <name> </name>
-        <disabled/>
+        <name>Smpl Mode</name>
         <controller>63</controller>
         <channel>7</channel>
         <off>0</off>
         <on>127</on>
-        <behavior>gate</behavior>
+        <behavior>trigger</behavior>
         <reaction>ondown</reaction>
       </button>
       <button id="Scene">
@@ -263,7 +262,8 @@
         <reaction>ondown</reaction>
       </button>
       <button id="Select">
-        <name>Loop / Fx</name>
+        <name> </name>
+        <disabled/>
         <controller>25</controller>
         <channel>7</channel>
         <off>0</off>
@@ -282,7 +282,8 @@
         <reaction>ondown</reaction>
       </button>
       <button id="Step">
-        <name>Quantize </name>
+        <name> </name>
+        <disabled/>
         <controller>61</controller>
         <channel>7</channel>
         <off>0</off>
@@ -291,7 +292,7 @@
         <reaction>ondown</reaction>
       </button>
       <knob id="Swing">
-        <name>Scroll List</name>
+        <name>B: Vol</name>
         <controller mode="offset">52</controller>
         <channel>7</channel>
         <min>0</min>
@@ -313,7 +314,7 @@
         <bipolar>off</bipolar>
       </knob>
       <knob id="Volume">
-        <name>Scroll Tree</name>
+        <name>A: Vol</name>
         <controller mode="offset">50</controller>
         <channel>7</channel>
         <min>0</min>
@@ -328,7 +329,8 @@
       <current_index>1</current_index>
       <page name="Equalizer">
         <button id="Button1">
-          <name>Vol</name>
+          <name>Hi</name>
+          <disabled/>
           <controller>110</controller>
           <channel>7</channel>
           <off>0</off>
@@ -337,7 +339,8 @@
           <reaction>ondown</reaction>
         </button>
         <button id="Button2">
-          <name>Lo</name>
+          <name>Mid</name>
+          <disabled/>
           <controller>111</controller>
           <channel>7</channel>
           <off>0</off>
@@ -346,7 +349,8 @@
           <reaction>ondown</reaction>
         </button>
         <button id="Button3">
-          <name>Mi</name>
+          <name>Lo</name>
+          <disabled/>
           <controller>112</controller>
           <channel>7</channel>
           <off>0</off>
@@ -355,7 +359,8 @@
           <reaction>ondown</reaction>
         </button>
         <button id="Button4">
-          <name>Hi</name>
+          <name>Fltr</name>
+          <disabled/>
           <controller>113</controller>
           <channel>7</channel>
           <off>0</off>
@@ -365,6 +370,7 @@
         </button>
         <button id="Button5">
           <name>Hi</name>
+          <disabled/>
           <controller>114</controller>
           <channel>7</channel>
           <off>0</off>
@@ -373,7 +379,8 @@
           <reaction>ondown</reaction>
         </button>
         <button id="Button6">
-          <name>Mi</name>
+          <name>Mid</name>
+          <disabled/>
           <controller>115</controller>
           <channel>7</channel>
           <off>0</off>
@@ -383,6 +390,7 @@
         </button>
         <button id="Button7">
           <name>Lo</name>
+          <disabled/>
           <controller>116</controller>
           <channel>7</channel>
           <off>0</off>
@@ -391,7 +399,8 @@
           <reaction>ondown</reaction>
         </button>
         <button id="Button8">
-          <name>Vol</name>
+          <name>Fltr</name>
+          <disabled/>
           <mcu-button>32</mcu-button>
           <behavior>gate</behavior>
           <reaction>ondown</reaction>
@@ -438,7 +447,7 @@
           <default>0</default>
           <range>360</range>
           <steps>20</steps>
-          <bipolar>off</bipolar>
+          <bipolar>on</bipolar>
         </knob>
         <knob id="Knob5">
           <name> </name>
@@ -482,12 +491,12 @@
           <default>0</default>
           <range>360</range>
           <steps>20</steps>
-          <bipolar>off</bipolar>
+          <bipolar>on</bipolar>
         </knob>
       </page>
       <page name="Effects">
         <button id="Button1">
-          <name>Fltr</name>
+          <name>1</name>
           <controller>90</controller>
           <channel>7</channel>
           <off>0</off>
@@ -496,7 +505,7 @@
           <reaction>ondown</reaction>
         </button>
         <button id="Button2">
-          <name> </name>
+          <name>2</name>
           <controller>91</controller>
           <channel>7</channel>
           <off>0</off>
@@ -505,7 +514,7 @@
           <reaction>ondown</reaction>
         </button>
         <button id="Button3">
-          <name> </name>
+          <name>3</name>
           <controller>92</controller>
           <channel>7</channel>
           <off>0</off>
@@ -514,7 +523,8 @@
           <reaction>ondown</reaction>
         </button>
         <button id="Button4">
-          <name>Styl</name>
+          <name>Mix</name>
+          <disabled/>
           <controller>93</controller>
           <channel>7</channel>
           <off>0</off>
@@ -523,7 +533,7 @@
           <reaction>ondown</reaction>
         </button>
         <button id="Button5">
-          <name>Pttrn</name>
+          <name>1</name>
           <controller>94</controller>
           <channel>7</channel>
           <off>0</off>
@@ -532,7 +542,7 @@
           <reaction>ondown</reaction>
         </button>
         <button id="Button6">
-          <name> </name>
+          <name>2</name>
           <controller>95</controller>
           <channel>7</channel>
           <off>0</off>
@@ -541,7 +551,7 @@
           <reaction>ondown</reaction>
         </button>
         <button id="Button7">
-          <name> </name>
+          <name>3</name>
           <controller>96</controller>
           <channel>7</channel>
           <off>0</off>
@@ -550,7 +560,8 @@
           <reaction>ondown</reaction>
         </button>
         <button id="Button8">
-          <name>Fltr</name>
+          <name>Mix</name>
+          <disabled/>
           <mcu-button>31</mcu-button>
           <behavior>gate</behavior>
           <reaction>ondown</reaction>
@@ -564,7 +575,7 @@
           <default>0</default>
           <range>360</range>
           <steps>20</steps>
-          <bipolar>on</bipolar>
+          <bipolar>off</bipolar>
         </knob>
         <knob id="Knob2">
           <name> </name>
@@ -641,7 +652,7 @@
           <default>0</default>
           <range>360</range>
           <steps>20</steps>
-          <bipolar>off</bipolar>
+          <bipolar>on</bipolar>
         </knob>
       </page>
     </pages>
@@ -809,6 +820,7 @@
           <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure1" subtype="pressure">
+          <disabled/>
           <controller>13</controller>
           <channel>7</channel>
           <min>0</min>
@@ -816,6 +828,7 @@
           <default>0</default>
         </pad>
         <pad id="Pressure10" subtype="pressure">
+          <disabled/>
           <controller>6</controller>
           <channel>7</channel>
           <min>0</min>
@@ -823,6 +836,7 @@
           <default>0</default>
         </pad>
         <pad id="Pressure11" subtype="pressure">
+          <disabled/>
           <controller>7</controller>
           <channel>7</channel>
           <min>0</min>
@@ -830,6 +844,7 @@
           <default>0</default>
         </pad>
         <pad id="Pressure12" subtype="pressure">
+          <disabled/>
           <controller>8</controller>
           <channel>7</channel>
           <min>0</min>
@@ -837,6 +852,7 @@
           <default>0</default>
         </pad>
         <pad id="Pressure13" subtype="pressure">
+          <disabled/>
           <controller>1</controller>
           <channel>7</channel>
           <min>0</min>
@@ -844,6 +860,7 @@
           <default>0</default>
         </pad>
         <pad id="Pressure14" subtype="pressure">
+          <disabled/>
           <controller>2</controller>
           <channel>7</channel>
           <min>0</min>
@@ -851,6 +868,7 @@
           <default>0</default>
         </pad>
         <pad id="Pressure15" subtype="pressure">
+          <disabled/>
           <controller>3</controller>
           <channel>7</channel>
           <min>0</min>
@@ -858,6 +876,7 @@
           <default>0</default>
         </pad>
         <pad id="Pressure16" subtype="pressure">
+          <disabled/>
           <controller>4</controller>
           <channel>7</channel>
           <min>0</min>
@@ -865,6 +884,7 @@
           <default>0</default>
         </pad>
         <pad id="Pressure2" subtype="pressure">
+          <disabled/>
           <controller>14</controller>
           <channel>7</channel>
           <min>0</min>
@@ -872,6 +892,7 @@
           <default>0</default>
         </pad>
         <pad id="Pressure3" subtype="pressure">
+          <disabled/>
           <controller>15</controller>
           <channel>7</channel>
           <min>0</min>
@@ -879,6 +900,7 @@
           <default>0</default>
         </pad>
         <pad id="Pressure4" subtype="pressure">
+          <disabled/>
           <controller>16</controller>
           <channel>7</channel>
           <min>0</min>
@@ -886,6 +908,7 @@
           <default>0</default>
         </pad>
         <pad id="Pressure5" subtype="pressure">
+          <disabled/>
           <controller>9</controller>
           <channel>7</channel>
           <min>0</min>
@@ -893,6 +916,7 @@
           <default>0</default>
         </pad>
         <pad id="Pressure6" subtype="pressure">
+          <disabled/>
           <controller>10</controller>
           <channel>7</channel>
           <min>0</min>
@@ -900,6 +924,7 @@
           <default>0</default>
         </pad>
         <pad id="Pressure7" subtype="pressure">
+          <disabled/>
           <controller>11</controller>
           <channel>7</channel>
           <min>0</min>
@@ -907,6 +932,7 @@
           <default>0</default>
         </pad>
         <pad id="Pressure8" subtype="pressure">
+          <disabled/>
           <controller>12</controller>
           <channel>7</channel>
           <min>0</min>
@@ -914,6 +940,7 @@
           <default>0</default>
         </pad>
         <pad id="Pressure9" subtype="pressure">
+          <disabled/>
           <controller>5</controller>
           <channel>7</channel>
           <min>0</min>
