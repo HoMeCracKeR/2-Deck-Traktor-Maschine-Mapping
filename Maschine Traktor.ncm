@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<ni-controller-midi-map version="1">
+<ni-controller-midi-map port="internal" version="1">
 
-  <midi-map name="Maschine Traktor" port="internal" type="Maschine">
+  <midi-map name="Maschine Traktor" type="Maschine">
     <handleGroupControls/>
     <velocitycurve>3</velocitycurve>
+    <handleTransport>0</handleTransport>
+    <wrapmode>0</wrapmode>
     <controls>
       <button id="A">
         <name>A: Fx 1</name>
@@ -127,7 +129,7 @@
         <reaction>ondown</reaction>
       </button>
       <button id="Grid">
-        <name>Loop Size</name>
+        <name>LRec Size</name>
         <controller>33</controller>
         <channel>7</channel>
         <off>0</off>
@@ -303,7 +305,7 @@
         <bipolar>off</bipolar>
       </knob>
       <knob id="Tempo">
-        <name>Loop D/W</name>
+        <name>LRec Mix</name>
         <controller mode="offset">51</controller>
         <channel>7</channel>
         <min>0</min>
@@ -826,6 +828,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure10" subtype="pressure">
           <disabled/>
@@ -834,6 +838,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure11" subtype="pressure">
           <disabled/>
@@ -842,6 +848,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure12" subtype="pressure">
           <disabled/>
@@ -850,6 +858,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure13" subtype="pressure">
           <disabled/>
@@ -858,6 +868,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure14" subtype="pressure">
           <disabled/>
@@ -866,6 +878,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure15" subtype="pressure">
           <disabled/>
@@ -874,6 +888,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure16" subtype="pressure">
           <disabled/>
@@ -882,6 +898,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure2" subtype="pressure">
           <disabled/>
@@ -890,6 +908,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure3" subtype="pressure">
           <disabled/>
@@ -898,6 +918,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure4" subtype="pressure">
           <disabled/>
@@ -906,6 +928,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure5" subtype="pressure">
           <disabled/>
@@ -914,6 +938,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure6" subtype="pressure">
           <disabled/>
@@ -922,6 +948,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure7" subtype="pressure">
           <disabled/>
@@ -930,6 +958,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure8" subtype="pressure">
           <disabled/>
@@ -938,6 +968,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure9" subtype="pressure">
           <disabled/>
@@ -946,6 +978,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
       </group>
       <group name="Pad Page B">
@@ -1099,6 +1133,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure10" subtype="pressure">
           <polyat>33</polyat>
@@ -1106,6 +1142,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure11" subtype="pressure">
           <polyat>34</polyat>
@@ -1113,6 +1151,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure12" subtype="pressure">
           <polyat>35</polyat>
@@ -1120,6 +1160,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure13" subtype="pressure">
           <polyat>36</polyat>
@@ -1127,6 +1169,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure14" subtype="pressure">
           <polyat>37</polyat>
@@ -1134,6 +1178,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure15" subtype="pressure">
           <polyat>38</polyat>
@@ -1141,6 +1187,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure16" subtype="pressure">
           <polyat>39</polyat>
@@ -1148,6 +1196,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure2" subtype="pressure">
           <polyat>25</polyat>
@@ -1155,6 +1205,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure3" subtype="pressure">
           <polyat>26</polyat>
@@ -1162,6 +1214,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure4" subtype="pressure">
           <polyat>27</polyat>
@@ -1169,6 +1223,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure5" subtype="pressure">
           <polyat>28</polyat>
@@ -1176,6 +1232,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure6" subtype="pressure">
           <polyat>29</polyat>
@@ -1183,6 +1241,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure7" subtype="pressure">
           <polyat>30</polyat>
@@ -1190,6 +1250,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure8" subtype="pressure">
           <polyat>31</polyat>
@@ -1197,6 +1259,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure9" subtype="pressure">
           <polyat>32</polyat>
@@ -1204,6 +1268,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
       </group>
       <group name="Pad Page C">
@@ -1357,6 +1423,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure10" subtype="pressure">
           <polyat>45</polyat>
@@ -1364,6 +1432,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure11" subtype="pressure">
           <polyat>46</polyat>
@@ -1371,6 +1441,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure12" subtype="pressure">
           <polyat>47</polyat>
@@ -1378,6 +1450,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure13" subtype="pressure">
           <polyat>48</polyat>
@@ -1385,6 +1459,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure14" subtype="pressure">
           <polyat>49</polyat>
@@ -1392,6 +1468,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure15" subtype="pressure">
           <polyat>50</polyat>
@@ -1399,6 +1477,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure16" subtype="pressure">
           <polyat>51</polyat>
@@ -1406,6 +1486,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure2" subtype="pressure">
           <polyat>37</polyat>
@@ -1413,6 +1495,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure3" subtype="pressure">
           <polyat>38</polyat>
@@ -1420,6 +1504,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure4" subtype="pressure">
           <polyat>39</polyat>
@@ -1427,6 +1513,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure5" subtype="pressure">
           <polyat>40</polyat>
@@ -1434,6 +1522,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure6" subtype="pressure">
           <polyat>41</polyat>
@@ -1441,6 +1531,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure7" subtype="pressure">
           <polyat>42</polyat>
@@ -1448,6 +1540,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure8" subtype="pressure">
           <polyat>43</polyat>
@@ -1455,6 +1549,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure9" subtype="pressure">
           <polyat>44</polyat>
@@ -1462,6 +1558,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
       </group>
       <group name="Pad Page D">
@@ -1615,6 +1713,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure10" subtype="pressure">
           <polyat>57</polyat>
@@ -1622,6 +1722,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure11" subtype="pressure">
           <polyat>58</polyat>
@@ -1629,6 +1731,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure12" subtype="pressure">
           <polyat>59</polyat>
@@ -1636,6 +1740,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure13" subtype="pressure">
           <polyat>60</polyat>
@@ -1643,6 +1749,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure14" subtype="pressure">
           <polyat>61</polyat>
@@ -1650,6 +1758,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure15" subtype="pressure">
           <polyat>62</polyat>
@@ -1657,6 +1767,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure16" subtype="pressure">
           <polyat>63</polyat>
@@ -1664,6 +1776,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure2" subtype="pressure">
           <polyat>49</polyat>
@@ -1671,6 +1785,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure3" subtype="pressure">
           <polyat>50</polyat>
@@ -1678,6 +1794,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure4" subtype="pressure">
           <polyat>51</polyat>
@@ -1685,6 +1803,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure5" subtype="pressure">
           <polyat>52</polyat>
@@ -1692,6 +1812,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure6" subtype="pressure">
           <polyat>53</polyat>
@@ -1699,6 +1821,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure7" subtype="pressure">
           <polyat>54</polyat>
@@ -1706,6 +1830,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure8" subtype="pressure">
           <polyat>55</polyat>
@@ -1713,6 +1839,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure9" subtype="pressure">
           <polyat>56</polyat>
@@ -1720,6 +1848,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
       </group>
       <group name="Pad Page E">
@@ -1873,6 +2003,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure10" subtype="pressure">
           <polyat>69</polyat>
@@ -1880,6 +2012,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure11" subtype="pressure">
           <polyat>70</polyat>
@@ -1887,6 +2021,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure12" subtype="pressure">
           <polyat>71</polyat>
@@ -1894,6 +2030,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure13" subtype="pressure">
           <polyat>72</polyat>
@@ -1901,6 +2039,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure14" subtype="pressure">
           <polyat>73</polyat>
@@ -1908,6 +2048,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure15" subtype="pressure">
           <polyat>74</polyat>
@@ -1915,6 +2057,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure16" subtype="pressure">
           <polyat>75</polyat>
@@ -1922,6 +2066,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure2" subtype="pressure">
           <polyat>61</polyat>
@@ -1929,6 +2075,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure3" subtype="pressure">
           <polyat>62</polyat>
@@ -1936,6 +2084,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure4" subtype="pressure">
           <polyat>63</polyat>
@@ -1943,6 +2093,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure5" subtype="pressure">
           <polyat>64</polyat>
@@ -1950,6 +2102,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure6" subtype="pressure">
           <polyat>65</polyat>
@@ -1957,6 +2111,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure7" subtype="pressure">
           <polyat>66</polyat>
@@ -1964,6 +2120,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure8" subtype="pressure">
           <polyat>67</polyat>
@@ -1971,6 +2129,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure9" subtype="pressure">
           <polyat>68</polyat>
@@ -1978,6 +2138,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
       </group>
       <group name="Pad Page F">
@@ -2131,6 +2293,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure10" subtype="pressure">
           <polyat>81</polyat>
@@ -2138,6 +2302,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure11" subtype="pressure">
           <polyat>82</polyat>
@@ -2145,6 +2311,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure12" subtype="pressure">
           <polyat>83</polyat>
@@ -2152,6 +2320,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure13" subtype="pressure">
           <polyat>84</polyat>
@@ -2159,6 +2329,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure14" subtype="pressure">
           <polyat>85</polyat>
@@ -2166,6 +2338,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure15" subtype="pressure">
           <polyat>86</polyat>
@@ -2173,6 +2347,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure16" subtype="pressure">
           <polyat>87</polyat>
@@ -2180,6 +2356,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure2" subtype="pressure">
           <polyat>73</polyat>
@@ -2187,6 +2365,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure3" subtype="pressure">
           <polyat>74</polyat>
@@ -2194,6 +2374,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure4" subtype="pressure">
           <polyat>75</polyat>
@@ -2201,6 +2383,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure5" subtype="pressure">
           <polyat>76</polyat>
@@ -2208,6 +2392,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure6" subtype="pressure">
           <polyat>77</polyat>
@@ -2215,6 +2401,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure7" subtype="pressure">
           <polyat>78</polyat>
@@ -2222,6 +2410,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure8" subtype="pressure">
           <polyat>79</polyat>
@@ -2229,6 +2419,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure9" subtype="pressure">
           <polyat>80</polyat>
@@ -2236,6 +2428,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
       </group>
       <group name="Pad Page G">
@@ -2389,6 +2583,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure10" subtype="pressure">
           <polyat>93</polyat>
@@ -2396,6 +2592,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure11" subtype="pressure">
           <polyat>94</polyat>
@@ -2403,6 +2601,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure12" subtype="pressure">
           <polyat>95</polyat>
@@ -2410,6 +2610,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure13" subtype="pressure">
           <polyat>96</polyat>
@@ -2417,6 +2619,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure14" subtype="pressure">
           <polyat>97</polyat>
@@ -2424,6 +2628,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure15" subtype="pressure">
           <polyat>98</polyat>
@@ -2431,6 +2637,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure16" subtype="pressure">
           <polyat>99</polyat>
@@ -2438,6 +2646,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure2" subtype="pressure">
           <polyat>85</polyat>
@@ -2445,6 +2655,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure3" subtype="pressure">
           <polyat>86</polyat>
@@ -2452,6 +2664,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure4" subtype="pressure">
           <polyat>87</polyat>
@@ -2459,6 +2673,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure5" subtype="pressure">
           <polyat>88</polyat>
@@ -2466,6 +2682,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure6" subtype="pressure">
           <polyat>89</polyat>
@@ -2473,6 +2691,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure7" subtype="pressure">
           <polyat>90</polyat>
@@ -2480,6 +2700,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure8" subtype="pressure">
           <polyat>91</polyat>
@@ -2487,6 +2709,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure9" subtype="pressure">
           <polyat>92</polyat>
@@ -2494,6 +2718,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
       </group>
       <group name="Pad Page H">
@@ -2647,6 +2873,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure10" subtype="pressure">
           <polyat>105</polyat>
@@ -2654,6 +2882,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure11" subtype="pressure">
           <polyat>106</polyat>
@@ -2661,6 +2891,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure12" subtype="pressure">
           <polyat>107</polyat>
@@ -2668,6 +2900,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure13" subtype="pressure">
           <polyat>108</polyat>
@@ -2675,6 +2909,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure14" subtype="pressure">
           <polyat>109</polyat>
@@ -2682,6 +2918,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure15" subtype="pressure">
           <polyat>110</polyat>
@@ -2689,6 +2927,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure16" subtype="pressure">
           <polyat>111</polyat>
@@ -2696,6 +2936,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure2" subtype="pressure">
           <polyat>97</polyat>
@@ -2703,6 +2945,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure3" subtype="pressure">
           <polyat>98</polyat>
@@ -2710,6 +2954,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure4" subtype="pressure">
           <polyat>99</polyat>
@@ -2717,6 +2963,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure5" subtype="pressure">
           <polyat>100</polyat>
@@ -2724,6 +2972,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure6" subtype="pressure">
           <polyat>101</polyat>
@@ -2731,6 +2981,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure7" subtype="pressure">
           <polyat>102</polyat>
@@ -2738,6 +2990,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure8" subtype="pressure">
           <polyat>103</polyat>
@@ -2745,6 +2999,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
         <pad id="Pressure9" subtype="pressure">
           <polyat>104</polyat>
@@ -2752,6 +3008,8 @@
           <min>0</min>
           <max>127</max>
           <default>0</default>
+          <behavior>toggle</behavior>
+          <reaction>ondown</reaction>
         </pad>
       </group>
     </groups>
