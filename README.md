@@ -12,7 +12,7 @@ So I cut down my personal feature list and focus on intuitivity and simplicity. 
 
 Here it is.
 
-{<1>}![](/content/images/2014/Sep/Maschine-Traktor-Eq.png)
+{<1>}![](https://briefkast.in/content/images/2014/Sep/Maschine-Traktor-Eq.png)
 
 * In the **group section**, you can control play/pause, monitor out and enable/disable effect 1 and 2 for every deck.
 * In the **transport section**, you have control over the loop recorder: Play/Pause, Record, Delete, set loop size and adjust the loop recorder mix amount.
@@ -24,7 +24,7 @@ Here it is.
 
 To make this your own, I strongly recommend to change the parameter names for the effect decks in the Controller Editor.
 
-{<2>}![](/content/images/2014/Sep/Maschine-Traktor-fx.png)
+{<2>}![](https://briefkast.in/content/images/2014/Sep/Maschine-Traktor-fx.png)
 
 That’s it. I want to keep the mapping as simple and intuitive as possible. If you come up with some interesting mapping solutions, let me know.
 
