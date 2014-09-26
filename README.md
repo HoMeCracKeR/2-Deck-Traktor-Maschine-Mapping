@@ -14,12 +14,12 @@ Here it is.
 
 ![](https://briefkast.in/content/images/2014/Sep/Maschine-Layout.png)
 
-* In the **group section**, you can control play/pause, monitor out and enable/disable effect 1 and 2 for every deck.
-* In the **transport section**, you have control over the loop recorder: Play/Pause, Record, Delete, set loop size and adjust the loop recorder mix amount.
-* You have control over the 3-band equaliser and the effect decks in the top two **displays**.
-* To adjust the volume of the two decks use the **Volume and Swing** knobs in the **Master section**.
-* On the **pads** are loop macros for the both decks. You can set loops and move around with the active loop in the track. There are two loop steps implemented: 1 and 16. Choose for every deck. For focus, there are volume levels on the pads for each deck.
-* Press Browsing to enter the **Browsing mode**. You can browse the tree and the list by using the **Volume and Swing** knobs in the **Master Section**. To load a track to a deck, press play on the according deck (**group section**, button E or G).
+* In the group section, you can control **play / pause**, **monitor / cue out** and **enable / disable effect rack** 1 and 2 for every deck.
+* In the transport section, you have control over the **loop recorder**: Play/Pause, Record, Delete, set loop size and adjust the loop recorder mix amount.
+* You have control over the **3-band equalizer** and the effect decks in the top two displays.
+* To adjust the **volume** of the two decks use the Volume and Swing knobs in the Master section.
+* On the pads are **loop macros** for the both decks. You can set loops and move around with the active loop in the track. There are two loop steps implemented: 1 and 16. Choose for every deck. For focus, there are **volume levels** on the pads for each deck.
+* Press Browsing to enter the **Browsing mode**. You can browse the tree and the list by using the Volume and Swing knobs in the Master Section. To load a track to a deck, press play on the according deck (group section, button E or G).
 * Press Sampling to enter the **Sampling mode**. It’s activated by default, indicated trough the active led. In this mode quantise and snap is activated by default. Also when you play a track it automatically sync the track to the master clock and set a 4 bar loop.
 
 To make this your own, I strongly recommend to change the parameter names for the effect decks in the Controller Editor.
