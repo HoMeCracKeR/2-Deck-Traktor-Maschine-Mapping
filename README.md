@@ -36,6 +36,7 @@ https://briefkast.in/2014/09/25/2-deck-traktor-maschine/
 
 **Download**:<br>
 https://github.com/HerrVonKloeten/2-Deck-Traktor-Maschine-Mapping
+https://maps.djtechtools.com/mappings/3405
 
 
 ### Todo
