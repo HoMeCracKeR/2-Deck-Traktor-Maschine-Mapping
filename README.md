@@ -31,10 +31,25 @@ That’s it. I want to keep the mapping as simple and intuitive as possible. If 
 Have fun.
 
 
-**Blog Post**:<br>
+**Page**:<br>
 https://briefkast.in/2014/09/25/2-deck-traktor-maschine/
 
-Ideas for the next version:
+### Todo
+
+* Make the mapping modular. Right now it's just one big tsi. Split it up.
+
+
+### Changelog
+#### 1.1
+Change loop move macros and implement an post volume meter.
+* Step width 16 beats -> 32 beats.
+* Remove loop move step switch. Now the two bottom rows on the pads are move macros. The last one for step 32 beat width and above for 1 beat step width.
+* Volume meter on the pads. I don't know if I like it..
+
+#### 1.0
+Initial Version
+
+### Ideas for future features
 
 * Support gratification style effects or something.
 * Add Track preparation, maybe seperate in Preparation and Performance mode. This way the cue points become attractive again. Set delete and manage in Preparation mode and just toggeling in Performance mode.
