@@ -169,11 +169,11 @@
       <button id="Mute">
         <name> </name>
         <disabled/>
-        <controller>27</controller>
-        <channel>7</channel>
+        <controller>127</controller>
+        <channel>5</channel>
         <off>0</off>
         <on>127</on>
-        <behavior>trigger</behavior>
+        <behavior>gate</behavior>
         <reaction>ondown</reaction>
       </button>
       <button id="Navigate">
@@ -328,7 +328,7 @@
       </knob>
     </controls>
     <pages>
-      <current_index>1</current_index>
+      <current_index>0</current_index>
       <page name="Equalizer">
         <button id="Button1">
           <name>Hi</name>
@@ -347,7 +347,7 @@
           <channel>7</channel>
           <off>0</off>
           <on>127</on>
-          <behavior>trigger</behavior>
+          <behavior>gate</behavior>
           <reaction>ondown</reaction>
         </button>
         <button id="Button3">
@@ -640,10 +640,10 @@
           <channel>7</channel>
           <min>0</min>
           <max>127</max>
-          <default>0</default>
+          <default>63</default>
           <range>360</range>
           <steps>20</steps>
-          <bipolar>off</bipolar>
+          <bipolar>on</bipolar>
         </knob>
         <knob id="Knob8">
           <name> </name>
@@ -662,7 +662,7 @@
       <current_index>0</current_index>
       <group name="Pad Page A">
         <pad id="Pad1" subtype="trigger">
-          <name>A:  &lt;</name>
+          <name>A:  &lt;- (32)</name>
           <controller>13</controller>
           <channel>7</channel>
           <min>0</min>
@@ -742,7 +742,7 @@
           <reaction>ondown</reaction>
         </pad>
         <pad id="Pad2" subtype="trigger">
-          <name>A:  &gt;</name>
+          <name>A: - &gt; (32)</name>
           <controller>14</controller>
           <channel>7</channel>
           <min>0</min>
@@ -752,7 +752,7 @@
           <reaction>ondown</reaction>
         </pad>
         <pad id="Pad3" subtype="trigger">
-          <name>B:  &lt;</name>
+          <name>B:  &lt;- (32)</name>
           <controller>15</controller>
           <channel>7</channel>
           <min>0</min>
@@ -762,7 +762,7 @@
           <reaction>ondown</reaction>
         </pad>
         <pad id="Pad4" subtype="trigger">
-          <name>B:  &gt;</name>
+          <name>B: - &gt; (32)</name>
           <controller>16</controller>
           <channel>7</channel>
           <min>0</min>
@@ -772,7 +772,7 @@
           <reaction>ondown</reaction>
         </pad>
         <pad id="Pad5" subtype="trigger">
-          <name>A: Set 1</name>
+          <name>A:  &lt;- (1)</name>
           <controller>9</controller>
           <channel>7</channel>
           <min>0</min>
@@ -782,7 +782,7 @@
           <reaction>ondown</reaction>
         </pad>
         <pad id="Pad6" subtype="trigger">
-          <name>A: Set 16</name>
+          <name>A: - &gt; (1)</name>
           <controller>10</controller>
           <channel>7</channel>
           <min>0</min>
@@ -792,7 +792,7 @@
           <reaction>ondown</reaction>
         </pad>
         <pad id="Pad7" subtype="trigger">
-          <name>B: Set 1</name>
+          <name>B:  &lt;- (1)</name>
           <controller>11</controller>
           <channel>7</channel>
           <min>0</min>
@@ -802,7 +802,7 @@
           <reaction>ondown</reaction>
         </pad>
         <pad id="Pad8" subtype="trigger">
-          <name>B: Set 16</name>
+          <name>B: - &gt; (1)</name>
           <controller>12</controller>
           <channel>7</channel>
           <min>0</min>
