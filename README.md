@@ -1,6 +1,7 @@
 2 Deck Traktor Maschine Mapping
 ===============================
 
+
 This is a Traktor mapping for the Native Instruments Maschine. It's for two track decks (A & B) and two effect racks (1 & 2). The main philosophy is simple: As most as possible in direct access.
 
 At first I tried to build a mapping to have everything in control in Traktor with one NI Maschine controller. Also I wanted as much as possible direct on hand. It worked, but just for a very small subset of functionality. To archieve more, I used a lot of modifiers to switch between different modes. And afer a while I find it annoying. I always had to care about the state of the controller. Check the lights to see where I am and which functionality is on which button.
@@ -35,30 +36,33 @@ Have fun.
 https://briefkast.in/2014/09/25/2-deck-traktor-maschine/
 
 **Download**:<br>
-https://github.com/HerrVonKloeten/2-Deck-Traktor-Maschine-Mapping
 https://maps.djtechtools.com/mappings/3405
 
 
-### Todo
+**Sourcecode**:<br>
+https://github.com/HerrVonKloeten/2-Deck-Traktor-Maschine-Mapping
+
+
+# Next Version
 
 * Make the mapping modular. Right now it's just one big tsi. Split it up.
 
 
-### Changelog
-#### 1.1
+# Changelog
+### 1.1
 Change loop move macros and implement an post volume meter.
+
 * Step width 16 beats -> 32 beats.
 * Remove loop move step switch. Now the two bottom rows on the pads are move macros. The last one for step 32 beat width and above for 1 beat step width.
 * Volume meter on the pads. I don't know if I like it..
 
-#### 1.0
+### 1.0
 Initial Version
 
-### Ideas for future features
+# Ideas for future features
 
 * Support gratification style effects or something.
 * Add Track preparation, maybe seperate in Preparation and Performance mode. This way the cue points become attractive again. Set delete and manage in Preparation mode and just toggeling in Performance mode.
 * I want deck D as Remix deck under control.
 * I’m looking for a way to copy a track to another deck with all effects and parameters enabled like before.
 * I have an idea of a workflow button. For example: In the browser the button loads the currently selected track in Deck A. Next time I press the button the decks are moved: Deck B -> Loop Recorder, Deck A -> Deck B. Then the button enters the browser and I can load a track in Deck A with the button again. Also the track starts to play and set a loop and all controls are set to my defaults (Vol off, etc…). So I can start mixing the next track. Something like this…
-
