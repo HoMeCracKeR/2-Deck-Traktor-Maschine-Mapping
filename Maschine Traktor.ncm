@@ -157,8 +157,7 @@
         <reaction>ondown</reaction>
       </button>
       <button id="Loop">
-        <name> </name>
-        <disabled/>
+        <name>To LRec</name>
         <controller>30</controller>
         <channel>7</channel>
         <off>0</off>
@@ -328,7 +327,7 @@
       </knob>
     </controls>
     <pages>
-      <current_index>0</current_index>
+      <current_index>1</current_index>
       <page name="Equalizer">
         <button id="Button1">
           <name>Hi</name>
@@ -498,7 +497,7 @@
       </page>
       <page name="Effects">
         <button id="Button1">
-          <name>1</name>
+          <name>Beatm</name>
           <controller>90</controller>
           <channel>7</channel>
           <off>0</off>
@@ -507,7 +506,7 @@
           <reaction>ondown</reaction>
         </button>
         <button id="Button2">
-          <name>2</name>
+          <name>Delay</name>
           <controller>91</controller>
           <channel>7</channel>
           <off>0</off>
@@ -516,7 +515,7 @@
           <reaction>ondown</reaction>
         </button>
         <button id="Button3">
-          <name>3</name>
+          <name>Evnhr</name>
           <controller>92</controller>
           <channel>7</channel>
           <off>0</off>
@@ -535,7 +534,7 @@
           <reaction>ondown</reaction>
         </button>
         <button id="Button5">
-          <name>1</name>
+          <name>Pftr</name>
           <controller>94</controller>
           <channel>7</channel>
           <off>0</off>
@@ -544,7 +543,7 @@
           <reaction>ondown</reaction>
         </button>
         <button id="Button6">
-          <name>2</name>
+          <name>F92-P</name>
           <controller>95</controller>
           <channel>7</channel>
           <off>0</off>
@@ -553,7 +552,7 @@
           <reaction>ondown</reaction>
         </button>
         <button id="Button7">
-          <name>3</name>
+          <name>Wormh</name>
           <controller>96</controller>
           <channel>7</channel>
           <off>0</off>
@@ -596,10 +595,10 @@
           <channel>7</channel>
           <min>0</min>
           <max>127</max>
-          <default>0</default>
+          <default>63</default>
           <range>360</range>
           <steps>20</steps>
-          <bipolar>off</bipolar>
+          <bipolar>on</bipolar>
         </knob>
         <knob id="Knob4">
           <name> </name>
@@ -618,10 +617,10 @@
           <channel>7</channel>
           <min>0</min>
           <max>127</max>
-          <default>0</default>
+          <default>63</default>
           <range>360</range>
           <steps>20</steps>
-          <bipolar>off</bipolar>
+          <bipolar>on</bipolar>
         </knob>
         <knob id="Knob6">
           <name> </name>
